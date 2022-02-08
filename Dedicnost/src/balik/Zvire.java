@@ -16,6 +16,10 @@ public class Zvire {
 		this.zijeVCesku = zijeVCesku;
 	}
 	
+	/**
+	 * Vypíše informace o zvíøeti vèetnì èasù krmìní. 
+	 * Pokud nebyl tento èas ještì zadán, bude uživatel varován.
+	 */
 	public void vypisInformace() {
 		System.out.println("Datum narození: " + datumNarozeni);
 		System.out.println("Poèet hodin krmení za den: " + this.pocetKrmeniZaDen);

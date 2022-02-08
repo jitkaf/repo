@@ -1,2 +1,3 @@
 module Dedicnost {
+	exports balik;
 }
